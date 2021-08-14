@@ -32,3 +32,6 @@ git branch (para ver las ramas existentes)
 git commit --amend
 (:wq)
 
+//CLonar repo
+git clone URLgithub
+
