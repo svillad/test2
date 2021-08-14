@@ -1,0 +1,34 @@
+
+CONTROL DE VERSIONES!!!
+
+//Inicializar un GIT
+1. git init
+2. git config --global user.email "you@example.com"
+3. git config --global user.name "Your Name"
+
+//Agregar commit (crear checkpoint)
+//Crea/modificar archivo y despues...
+1. git add .
+2. git commit -m "Descripción"
+
+//Ver estado
+1. git status
+2. git log
+3. git diff
+
+//Cambiar mi posición en el GIT
+git checkout ID_commit	(git checkout 22138473)
+git checkout Rama		(git checkout master)
+
+//Descartar cambios
+git checkout .
+
+//Crear ramas
+git checkout -b "nombreRama"
+git branch "nombreRama"
+git branch (para ver las ramas existentes)
+
+//Sobreescribrir un commit
+git commit --amend
+(:wq)
+
